@@ -1,0 +1,66 @@
+body {
+    box-sizing: border-box;
+    width: 1440;
+    height: 496;        
+    background-color: #fff;
+   
+}
+    .form {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 156px;
+
+}
+    .delay-label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    height: 72px;
+
+}
+    input[type="number"] {
+    height: 40px;
+    border-radius: 4px;
+    color: #808080;
+    border: 1px solid;
+    padding: 8px, 16px;
+
+}
+ input[type="number"]:hover {
+    color: #000000;
+ }
+  input[type="number"]:active{
+    color: #4E75FF;
+  } 
+fieldset {
+    height: 78px;
+    border-radius: 4px;
+    color: #808080;
+    border: 1px solid;
+    text-align-last: center;
+}
+fieldset:hover,
+fieldset:active {
+    color: #000000;
+}
+.btn-create {
+    width: 360px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px, 16px;
+    background-color: #4E75FF;
+    border: none;
+    color: #fff;
+}
+.btn-create:hover {
+     background-color: #6C8CFF;
+}
