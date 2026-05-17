@@ -18,7 +18,7 @@ const timerFiels = {
     minutes: document.querySelector("[data-minutes]"),
     seconds: document.querySelector("[data-seconds]"),
 };
-
+startBtn.disabled = true;
 let userSelectedDate = null;
 let timerId = null;
 const options = {
